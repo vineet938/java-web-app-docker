@@ -14,7 +14,7 @@ public class HelloWorldService {
 
 		logger.debug("getDesc() is executed!");
 
-		return "This is execution 5";
+		return "This is execution 1";
 
 	}
 
@@ -23,7 +23,7 @@ public class HelloWorldService {
 		logger.debug("getTitle() is executed! $name : {}", name);
 
 		if(StringUtils.isEmpty(name)){
-			return "Hello Everyone";
+			return "Hello Everyone. Welcome to Hackathon BTIC+CTIC";
 		}else{
 			return "" + name;
 		}
