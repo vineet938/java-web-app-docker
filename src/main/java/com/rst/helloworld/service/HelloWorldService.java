@@ -14,7 +14,7 @@ public class HelloWorldService {
 
 		logger.debug("getDesc() is executed!");
 
-		return "This is execution 1";
+		return "This is execution 2";
 
 	}
 
